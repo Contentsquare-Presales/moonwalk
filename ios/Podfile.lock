@@ -1,7 +1,11 @@
 PODS:
   - boost-for-react-native (1.63.0)
+  - ContentsquareModule (2.0.0):
+    - CS_iOS_SDK (= 4.0.0)
+    - React
   - Crashlytics (3.14.0):
     - Fabric (~> 1.10.2)
+  - CS_iOS_SDK (4.0.0)
   - DoubleConversion (1.1.6)
   - Fabric (1.10.2)
   - FBLazyVector (0.61.5)
@@ -322,6 +326,7 @@ PODS:
   - Yoga (1.14.0)
 
 DEPENDENCIES:
+  - "ContentsquareModule (from `../node_modules/@contentsquare/react-native-bridge`)"
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
   - FBReactNativeSpec (from `../node_modules/react-native/Libraries/FBReactNativeSpec`)
@@ -369,6 +374,7 @@ SPEC REPOS:
   trunk:
     - boost-for-react-native
     - Crashlytics
+    - CS_iOS_SDK
     - Fabric
     - Firebase
     - FirebaseAnalytics
@@ -384,6 +390,8 @@ SPEC REPOS:
     - PromisesObjC
 
 EXTERNAL SOURCES:
+  ContentsquareModule:
+    :path: "../node_modules/@contentsquare/react-native-bridge"
   DoubleConversion:
     :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
   FBLazyVector:
@@ -463,9 +471,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
-  Crashlytics: 540b7e5f5da5a042647227a5e3ac51d85eed06df
+  ContentsquareModule: 57b011beeacbd9ca354883bdf97c4d8124163b9e
+  Crashlytics: 9220f5bc89e7a618df411b4f639389dbfb0e03d2
+  CS_iOS_SDK: ace71b5dc3b0bb7a66d1c02b8a7e326404dd52d3
   DoubleConversion: 5805e889d232975c086db112ece9ed034df7a0b2
-  Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
+  Fabric: ea977e3cd9c20425516d3dafd3bf8c941c51223f
   FBLazyVector: aaeaf388755e4f29cd74acbc9e3b8da6d807c37f
   FBReactNativeSpec: 118d0d177724c2d67f08a59136eb29ef5943ec75
   Firebase: 0490eca762a72e4f1582319539153897f1508dee
@@ -516,6 +526,6 @@ SPEC CHECKSUMS:
   RNSVG: 67f1f12dae2cef6ed59a42cae74a6b8f5a9e7b46
   Yoga: f2a7cd4280bfe2cca5a7aed98ba0eb3d1310f18b
 
-PODFILE CHECKSUM: 3947758785705e895cbc86f1ab85bbf7825148a8
+PODFILE CHECKSUM: f4ab174ad61ad9d49d8fe54badd49b0b58e19e08
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.10.0

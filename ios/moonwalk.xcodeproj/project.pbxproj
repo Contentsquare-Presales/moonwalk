@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* moonwalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* moonwalkTests.m */; };
+		1292087C96E6E1930A5D8F42 /* libPods-moonwalkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 155C2601CDBC7FF249A715F8 /* libPods-moonwalkTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -17,12 +18,12 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* moonwalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* moonwalkTests.m */; };
 		5995DF238BBF43559DA04BA6 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCFEB1A3A1284447833A750A /* Quicksand-Medium.ttf */; };
+		5AAC3358B07A4AA2AA8FBECF /* libPods-moonwalk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD46C7DD3E64015C98055DDD /* libPods-moonwalk.a */; };
 		64A2F1B2416A49E2A2DDC90F /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0F69DCA96B649309A8C83E4 /* Quicksand-Light.ttf */; };
+		665DDD6C255DE6C9006E498E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 665DDD6B255DE6C9006E498E /* GoogleService-Info.plist */; };
+		665DDD6D255DE6C9006E498E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 665DDD6B255DE6C9006E498E /* GoogleService-Info.plist */; };
 		67972AC594724E01BFAA4A4B /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED045F782AE487C87436AC8 /* Quicksand-SemiBold.ttf */; };
-		6CE12614E387450A94D9D6EE /* libPods-moonwalk-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3555F528CF8CBA0E6DE789FB /* libPods-moonwalk-tvOSTests.a */; };
 		87FAA3ED61884E6496A7BAA4 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 038ADF0CC6D54B91AA7EB6CA /* Quicksand-Regular.ttf */; };
-		9C4BB37B242C0F07006DA12A /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 008F07F21AC5B25A0029DE68 /* main.jsbundle */; };
-		9C697327240C518500E12C34 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C697326240C518400E12C34 /* GoogleService-Info.plist */; };
 		9C97849624E9BA5500062AFC /* logo_darkblue.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C97848724E9BA5000062AFC /* logo_darkblue.png */; };
 		9C97849724E9BA5500062AFC /* logo_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C97848824E9BA5100062AFC /* logo_black.png */; };
 		9C97849824E9BA5500062AFC /* logo_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C97848924E9BA5100062AFC /* logo_white@3x.png */; };
@@ -39,10 +40,9 @@
 		9C9784A324E9BA5500062AFC /* logo_milkyway@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C97849424E9BA5500062AFC /* logo_milkyway@3x.png */; };
 		9C9784A424E9BA5500062AFC /* logo_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C97849524E9BA5500062AFC /* logo_white.png */; };
 		9CB7EBEF242D690E00F322D4 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 9CB7EBEE242D690E00F322D4 /* assets */; };
-		AA54D96F065F2118686B7E23 /* libPods-moonwalk-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1025A40BE1E294078E076384 /* libPods-moonwalk-tvOS.a */; };
-		AADC7F1D198A025EFDB8DEF7 /* libPods-moonwalk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 554FF0BF5C86F4F90CBA6227 /* libPods-moonwalk.a */; };
+		AAF6DC779610E0A04C86F0CA /* libPods-moonwalk-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3D34C15800C6C252FB4127 /* libPods-moonwalk-tvOS.a */; };
 		BC481920048245AD848BF5C1 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF28AF6EC2F47089F5F8A93 /* Quicksand-Bold.ttf */; };
-		CA693F511DFF08C7BBECA7D0 /* libPods-moonwalkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 931F241EEFA54D361B361815 /* libPods-moonwalkTests.a */; };
+		F764456FDD71766F30DCFA84 /* libPods-moonwalk-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD87255F02B87E4D6834A23 /* libPods-moonwalk-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,13 +63,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* moonwalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moonwalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* moonwalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = moonwalkTests.m; sourceTree = "<group>"; };
 		038ADF0CC6D54B91AA7EB6CA /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Quicksand-Regular.ttf"; path = "../assets/fonts/Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		0D7B1D6A9F9FF5A1E60D35F8 /* Pods-moonwalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonwalk.debug.xcconfig"; path = "Target Support Files/Pods-moonwalk/Pods-moonwalk.debug.xcconfig"; sourceTree = "<group>"; };
 		0DF28AF6EC2F47089F5F8A93 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Quicksand-Bold.ttf"; path = "../assets/fonts/Quicksand-Bold.ttf"; sourceTree = "<group>"; };
-		1025A40BE1E294078E076384 /* libPods-moonwalk-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moonwalk-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FD87255F02B87E4D6834A23 /* libPods-moonwalk-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moonwalk-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* Moonwalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonwalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = moonwalk/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = moonwalk/AppDelegate.m; sourceTree = "<group>"; };
@@ -77,16 +77,15 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = moonwalk/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = moonwalk/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = moonwalk/main.m; sourceTree = "<group>"; };
-		28B324ABE5E1652B71BF10F6 /* Pods-moonwalk-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonwalk-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-moonwalk-tvOSTests/Pods-moonwalk-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		155C2601CDBC7FF249A715F8 /* libPods-moonwalkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moonwalkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3D34C15800C6C252FB4127 /* libPods-moonwalk-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moonwalk-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* moonwalk-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "moonwalk-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* moonwalk-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "moonwalk-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3555F528CF8CBA0E6DE789FB /* libPods-moonwalk-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moonwalk-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		554FF0BF5C86F4F90CBA6227 /* libPods-moonwalk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moonwalk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		69A5FF80023FE2D3D0D99508 /* Pods-moonwalk-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonwalk-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-moonwalk-tvOS/Pods-moonwalk-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		70F1D56C625C1DAD02FC1AAA /* Pods-moonwalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonwalkTests.debug.xcconfig"; path = "Target Support Files/Pods-moonwalkTests/Pods-moonwalkTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7DC88DBDB1BA7FA91BBB132B /* Pods-moonwalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonwalk.debug.xcconfig"; path = "Target Support Files/Pods-moonwalk/Pods-moonwalk.debug.xcconfig"; sourceTree = "<group>"; };
-		931F241EEFA54D361B361815 /* libPods-moonwalkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moonwalkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C697326240C518400E12C34 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		34290CBCA126DA3CB4DFD0AC /* Pods-moonwalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonwalkTests.debug.xcconfig"; path = "Target Support Files/Pods-moonwalkTests/Pods-moonwalkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3538B7AD64640E97D3957EE0 /* Pods-moonwalk-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonwalk-tvOS.release.xcconfig"; path = "Target Support Files/Pods-moonwalk-tvOS/Pods-moonwalk-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		3DB4C48A201B207A47026227 /* Pods-moonwalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonwalkTests.release.xcconfig"; path = "Target Support Files/Pods-moonwalkTests/Pods-moonwalkTests.release.xcconfig"; sourceTree = "<group>"; };
+		53D48291927915800A1DD758 /* Pods-moonwalk-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonwalk-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-moonwalk-tvOS/Pods-moonwalk-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		665DDD6B255DE6C9006E498E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9C97848724E9BA5000062AFC /* logo_darkblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_darkblue.png; sourceTree = "<group>"; };
 		9C97848824E9BA5100062AFC /* logo_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_black.png; sourceTree = "<group>"; };
 		9C97848924E9BA5100062AFC /* logo_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_white@3x.png"; sourceTree = "<group>"; };
@@ -104,14 +103,14 @@
 		9C97849524E9BA5500062AFC /* logo_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_white.png; sourceTree = "<group>"; };
 		9CB7EBEE242D690E00F322D4 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 		9ED045F782AE487C87436AC8 /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Quicksand-SemiBold.ttf"; path = "../assets/fonts/Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
-		A33801C76B272BE6ED216303 /* Pods-moonwalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonwalk.release.xcconfig"; path = "Target Support Files/Pods-moonwalk/Pods-moonwalk.release.xcconfig"; sourceTree = "<group>"; };
-		C1DC288B7F4116E9A221750D /* Pods-moonwalk-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonwalk-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-moonwalk-tvOSTests/Pods-moonwalk-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		A4135FAD0DEC1B8CE2797874 /* Pods-moonwalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonwalk.release.xcconfig"; path = "Target Support Files/Pods-moonwalk/Pods-moonwalk.release.xcconfig"; sourceTree = "<group>"; };
+		BD46C7DD3E64015C98055DDD /* libPods-moonwalk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moonwalk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCFEB1A3A1284447833A750A /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Quicksand-Medium.ttf"; path = "../assets/fonts/Quicksand-Medium.ttf"; sourceTree = "<group>"; };
-		DB0636771E4368F2BD2860E6 /* Pods-moonwalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonwalkTests.release.xcconfig"; path = "Target Support Files/Pods-moonwalkTests/Pods-moonwalkTests.release.xcconfig"; sourceTree = "<group>"; };
 		E0F69DCA96B649309A8C83E4 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Quicksand-Light.ttf"; path = "../assets/fonts/Quicksand-Light.ttf"; sourceTree = "<group>"; };
+		E43468F60D244451C6BECC68 /* Pods-moonwalk-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonwalk-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-moonwalk-tvOSTests/Pods-moonwalk-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F4901A89EDB8BF1D168C6D9E /* Pods-moonwalk-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonwalk-tvOS.release.xcconfig"; path = "Target Support Files/Pods-moonwalk-tvOS/Pods-moonwalk-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		FC447324CB2DE62D90024CD1 /* Pods-moonwalk-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonwalk-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-moonwalk-tvOSTests/Pods-moonwalk-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA693F511DFF08C7BBECA7D0 /* libPods-moonwalkTests.a in Frameworks */,
+				1292087C96E6E1930A5D8F42 /* libPods-moonwalkTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,7 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AADC7F1D198A025EFDB8DEF7 /* libPods-moonwalk.a in Frameworks */,
+				5AAC3358B07A4AA2AA8FBECF /* libPods-moonwalk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA54D96F065F2118686B7E23 /* libPods-moonwalk-tvOS.a in Frameworks */,
+				AAF6DC779610E0A04C86F0CA /* libPods-moonwalk-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CE12614E387450A94D9D6EE /* libPods-moonwalk-tvOSTests.a in Frameworks */,
+				F764456FDD71766F30DCFA84 /* libPods-moonwalk-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,8 +171,7 @@
 			children = (
 				9CB7EBEE242D690E00F322D4 /* assets */,
 				9CC646C6242BCA930087DAC0 /* App Icons */,
-				9C697326240C518400E12C34 /* GoogleService-Info.plist */,
-				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				665DDD6B255DE6C9006E498E /* GoogleService-Info.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -189,10 +187,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				554FF0BF5C86F4F90CBA6227 /* libPods-moonwalk.a */,
-				1025A40BE1E294078E076384 /* libPods-moonwalk-tvOS.a */,
-				3555F528CF8CBA0E6DE789FB /* libPods-moonwalk-tvOSTests.a */,
-				931F241EEFA54D361B361815 /* libPods-moonwalkTests.a */,
+				BD46C7DD3E64015C98055DDD /* libPods-moonwalk.a */,
+				1A3D34C15800C6C252FB4127 /* libPods-moonwalk-tvOS.a */,
+				0FD87255F02B87E4D6834A23 /* libPods-moonwalk-tvOSTests.a */,
+				155C2601CDBC7FF249A715F8 /* libPods-moonwalkTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -200,14 +198,14 @@
 		4E13395701D29D84D030B6E8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7DC88DBDB1BA7FA91BBB132B /* Pods-moonwalk.debug.xcconfig */,
-				A33801C76B272BE6ED216303 /* Pods-moonwalk.release.xcconfig */,
-				69A5FF80023FE2D3D0D99508 /* Pods-moonwalk-tvOS.debug.xcconfig */,
-				F4901A89EDB8BF1D168C6D9E /* Pods-moonwalk-tvOS.release.xcconfig */,
-				28B324ABE5E1652B71BF10F6 /* Pods-moonwalk-tvOSTests.debug.xcconfig */,
-				C1DC288B7F4116E9A221750D /* Pods-moonwalk-tvOSTests.release.xcconfig */,
-				70F1D56C625C1DAD02FC1AAA /* Pods-moonwalkTests.debug.xcconfig */,
-				DB0636771E4368F2BD2860E6 /* Pods-moonwalkTests.release.xcconfig */,
+				0D7B1D6A9F9FF5A1E60D35F8 /* Pods-moonwalk.debug.xcconfig */,
+				A4135FAD0DEC1B8CE2797874 /* Pods-moonwalk.release.xcconfig */,
+				53D48291927915800A1DD758 /* Pods-moonwalk-tvOS.debug.xcconfig */,
+				3538B7AD64640E97D3957EE0 /* Pods-moonwalk-tvOS.release.xcconfig */,
+				E43468F60D244451C6BECC68 /* Pods-moonwalk-tvOSTests.debug.xcconfig */,
+				FC447324CB2DE62D90024CD1 /* Pods-moonwalk-tvOSTests.release.xcconfig */,
+				34290CBCA126DA3CB4DFD0AC /* Pods-moonwalkTests.debug.xcconfig */,
+				3DB4C48A201B207A47026227 /* Pods-moonwalkTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -287,7 +285,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "moonwalkTests" */;
 			buildPhases = (
-				0EE899863A19A5351A803489 /* [CP] Check Pods Manifest.lock */,
+				F14B86F3F574E079E79AC7C7 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -306,12 +304,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "moonwalk" */;
 			buildPhases = (
-				B71612923669D9ECEB84B537 /* [CP] Check Pods Manifest.lock */,
+				50205D9053B4505189CD7F6A /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				42198FCBCE12F2098C4461AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -326,7 +325,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "moonwalk-tvOS" */;
 			buildPhases = (
-				F3309FD0B283E03213574761 /* [CP] Check Pods Manifest.lock */,
+				80322CCF24D699C7CCC1530C /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -346,7 +345,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "moonwalk-tvOSTests" */;
 			buildPhases = (
-				1CA86DD2AB12F991474637A1 /* [CP] Check Pods Manifest.lock */,
+				C1D1B0717BEE31DA1645207F /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -376,7 +375,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = 6WD2C784QG;
+						DevelopmentTeam = FKRSK95X7U;
 						ProvisioningStyle = Automatic;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
@@ -424,15 +423,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C4BB37B242C0F07006DA12A /* main.jsbundle in Resources */,
 				9C9784A324E9BA5500062AFC /* logo_milkyway@3x.png in Resources */,
+				665DDD6C255DE6C9006E498E /* GoogleService-Info.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				9C9784A224E9BA5500062AFC /* logo_lightblue.png in Resources */,
 				9C97849B24E9BA5500062AFC /* logo_lightblue@2x.png in Resources */,
 				9C9784A424E9BA5500062AFC /* logo_white.png in Resources */,
 				9C97849D24E9BA5500062AFC /* logo_white@2x.png in Resources */,
 				9C9784A024E9BA5500062AFC /* logo_darkblue@3x.png in Resources */,
-				9C697327240C518500E12C34 /* GoogleService-Info.plist in Resources */,
 				9C97849924E9BA5500062AFC /* logo_milkyway.png in Resources */,
 				9C97849C24E9BA5500062AFC /* logo_darkblue@2x.png in Resources */,
 				9CB7EBEF242D690E00F322D4 /* assets in Resources */,
@@ -457,6 +455,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+				665DDD6D255DE6C9006E498E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,50 +483,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		0EE899863A19A5351A803489 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-moonwalkTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1CA86DD2AB12F991474637A1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-moonwalk-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -542,7 +497,25 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		B71612923669D9ECEB84B537 /* [CP] Check Pods Manifest.lock */ = {
+		42198FCBCE12F2098C4461AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-moonwalk/Pods-moonwalk-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ContentsquareModule/ContentsquareModule.framework/ContentsquareModule",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ContentsquareModule.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-moonwalk/Pods-moonwalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50205D9053B4505189CD7F6A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -564,7 +537,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F3309FD0B283E03213574761 /* [CP] Check Pods Manifest.lock */ = {
+		80322CCF24D699C7CCC1530C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -580,6 +553,50 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-moonwalk-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1D1B0717BEE31DA1645207F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-moonwalk-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F14B86F3F574E079E79AC7C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-moonwalkTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -691,7 +708,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70F1D56C625C1DAD02FC1AAA /* Pods-moonwalkTests.debug.xcconfig */;
+			baseConfigurationReference = 34290CBCA126DA3CB4DFD0AC /* Pods-moonwalkTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
@@ -716,7 +733,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB0636771E4368F2BD2860E6 /* Pods-moonwalkTests.release.xcconfig */;
+			baseConfigurationReference = 3DB4C48A201B207A47026227 /* Pods-moonwalkTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
@@ -738,23 +755,25 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DC88DBDB1BA7FA91BBB132B /* Pods-moonwalk.debug.xcconfig */;
+			baseConfigurationReference = 0D7B1D6A9F9FF5A1E60D35F8 /* Pods-moonwalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 223;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 6WD2C784QG;
+				DEVELOPMENT_TEAM = FKRSK95X7U;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = moonwalk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 2.2;
+				NEW_SETTING = "";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.maximenory.moonwalk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.contentsquare.presales.moonwalk;
 				PRODUCT_NAME = Moonwalk;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -764,22 +783,24 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A33801C76B272BE6ED216303 /* Pods-moonwalk.release.xcconfig */;
+			baseConfigurationReference = A4135FAD0DEC1B8CE2797874 /* Pods-moonwalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 223;
-				DEVELOPMENT_TEAM = 6WD2C784QG;
+				DEVELOPMENT_TEAM = FKRSK95X7U;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = moonwalk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 2.2;
+				NEW_SETTING = "";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.maximenory.moonwalk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.contentsquare.presales.moonwalk;
 				PRODUCT_NAME = Moonwalk;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -789,7 +810,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69A5FF80023FE2D3D0D99508 /* Pods-moonwalk-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 53D48291927915800A1DD758 /* Pods-moonwalk-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -817,7 +838,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4901A89EDB8BF1D168C6D9E /* Pods-moonwalk-tvOS.release.xcconfig */;
+			baseConfigurationReference = 3538B7AD64640E97D3957EE0 /* Pods-moonwalk-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -845,7 +866,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28B324ABE5E1652B71BF10F6 /* Pods-moonwalk-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = E43468F60D244451C6BECC68 /* Pods-moonwalk-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -872,7 +893,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1DC288B7F4116E9A221750D /* Pods-moonwalk-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = FC447324CB2DE62D90024CD1 /* Pods-moonwalk-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;

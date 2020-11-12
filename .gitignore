@@ -56,6 +56,5 @@ buck-out/
 *.jsbundle
 
 # Custom
-
-GoogleService-Info.plist
+ios/Pods/
 coverage
