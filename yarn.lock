@@ -1087,6 +1087,11 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@contentsquare/react-native-bridge@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@contentsquare/react-native-bridge/-/react-native-bridge-2.0.0.tgz#a2ee799d4e88547c0f3d9762c23298f94068fb48"
+  integrity sha512-XAbaMHc102Mf4c0eA+24tWOJbeeXeICsLLIA2sois0H3hO1VXpgTz6Gm2DUtgntr6IAcriLLZkD9aa3WPac+7w==
+
 "@egjs/hammerjs@^2.0.17":
   version "2.0.17"
   resolved "https://registry.yarnpkg.com/@egjs/hammerjs/-/hammerjs-2.0.17.tgz#5dc02af75a6a06e4c2db0202cae38c9263895124"

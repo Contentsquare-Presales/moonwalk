@@ -15,6 +15,7 @@
     "prettier-check": "prettier --debug-check '**/*.{js,jsx,ts,tsx,vue,json,css,scss,less,md,mdx,graphql}'"
   },
   "dependencies": {
+    "@contentsquare/react-native-bridge": "^2.0.0",
     "@react-native-community/async-storage": "^1.8.1",
     "@react-native-community/masked-view": "^0.1.6",
     "@react-native-community/push-notification-ios": "^1.1.0",

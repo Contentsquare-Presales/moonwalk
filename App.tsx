@@ -32,6 +32,8 @@ const CalendarNav = createNativeStackNavigator();
 const NewsNav = createNativeStackNavigator();
 const SearchNav = createNativeStackNavigator();
 
+import Contentsquare from '@contentsquare/react-native-bridge';
+
 const HomeStack = () => {
   return (
     <HomeNav.Navigator>
@@ -45,16 +47,18 @@ const HomeStack = () => {
         }}
         name="Home"
         component={Dashboard}
+        listeners={{focus: e => {Contentsquare.send("Home");}}}
       />
-      <HomeNav.Screen name="Details" component={Details} />
+      <HomeNav.Screen name="Details" component={Details} listeners={{focus: e => {Contentsquare.send("Home – Details");}}}/>
       <HomeNav.Screen
         name="Settings"
         component={Settings}
         options={{ headerBackTitle: "Home" }}
+        listeners={{focus: e => {Contentsquare.send("Settings");}}}
       />
-      <HomeNav.Screen name="Notifications" component={NotificationsSettings} />
-      <HomeNav.Screen name="Appearance" component={AppearanceSettings} />
-      <HomeNav.Screen name="Icon" component={AppIconSettings} />
+      <HomeNav.Screen name="Notifications" component={NotificationsSettings} listeners={{focus: e => {Contentsquare.send("Notifications");}}}/>
+      <HomeNav.Screen name="Appearance" component={AppearanceSettings} listeners={{focus: e => {Contentsquare.send("Appearance");}}}/>
+      <HomeNav.Screen name="Icon" component={AppIconSettings} listeners={{focus: e => {Contentsquare.send("Icon");}}}/>
       <HomeNav.Screen
         name="Licenses"
         options={{
@@ -62,6 +66,7 @@ const HomeStack = () => {
           headerHideShadow: true,
         }}
         component={Licenses}
+        listeners={{focus: e => {Contentsquare.send("Licenses");}}}
       />
     </HomeNav.Navigator>
   );
@@ -79,8 +84,9 @@ const CalendarStack = () => {
         }}
         name="Calendar"
         component={Calendar}
+        listeners={{focus: e => {Contentsquare.send("Calendar");}}}
       />
-      <CalendarNav.Screen name="Details" component={Details} />
+      <CalendarNav.Screen name="Details" component={Details} listeners={{focus: e => {Contentsquare.send("Calendar – Details");}}}/>
     </CalendarNav.Navigator>
   );
 };
@@ -96,6 +102,7 @@ const NewsStack = () => {
         }}
         name="News"
         component={News}
+        listeners={{focus: e => {Contentsquare.send("News");}}}
       />
     </NewsNav.Navigator>
   );
@@ -113,8 +120,9 @@ const SearchStack = () => {
         }}
         name="Search"
         component={Search}
+        listeners={{focus: e => {Contentsquare.send("Search");}}}
       />
-      <SearchNav.Screen name="Details" component={Details} />
+      <SearchNav.Screen name="Details" component={Details} listeners={{focus: e => {Contentsquare.send("Search – Details");}}}/>
     </SearchNav.Navigator>
   );
 };
